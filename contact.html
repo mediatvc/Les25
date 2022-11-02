@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Les25/contact.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <script>
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("ul, #textbox").toggle("slow");
+      });
+    });      
+        $("button").click(function(){
+        $("textbox").toggle("slow");
+      });
+
+    </script>    
+    
+    <title>jQuery Les 25</title>
+    
+</head>
+    
+
+<body>
+    <div id="wrapper">    
+            <button>Menu</button>
+                <div id="menu">
+                    <ul>
+                        <li><a href="/Les25/index.html">home</a></li>
+                        <li><a href="/Les25/about.html">about</a></li>
+                        <li><a href="/Les25/contact.html">contact</a></li>
+                    </ul>
+                </div>
+        <div id="textbox">
+            <div id="text">"THINK GREEN, KEEP IT CLEAN"</div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <h3>TvC Media 2022</h3>
+    </div>
+
+<noscript>
+Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+</noscript>
+</body>
+</html>

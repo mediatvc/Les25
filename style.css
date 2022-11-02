@@ -1,0 +1,114 @@
+:root {
+    --main: #a7268b;
+    --accent: #eed7f1;
+    --text: rgb(91, 91, 91);
+}
+body{
+    background-image: url(/Les25/IMG/pexels.jpg);
+    width: 1000px;
+    height: 800px;
+    color: gray;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+#wrapper{
+    width: 60%;
+    margin: auto;
+}
+
+#menu{
+    display: hidden;
+    background-color: var(--accent);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1rem;
+}
+
+
+
+ul{
+    background-color: var(--accent);
+    margin: auto;
+    margin-top: 1rem;
+    padding: 5rem;
+    position: absolute;
+    top: 15%;
+    border: 1px solid var(--main);
+    display: none;
+    list-style: none;
+    width: 60%;
+    height: 40vh;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 2rem;
+}
+li{
+    display: relative;
+    align-items: center;
+    justify-content: center;
+    opacity: 100%;
+    font-size: xx-large;
+    width: 100%;
+    color: var(--main);
+    border-bottom: 1px dotted var(--main);
+    text-align: center;
+}
+a:hover{
+    color:var(--text);
+    border-bottom: 2px dotted var(--text);
+}
+a{
+    color: var(--main);
+    text-decoration: none;
+}
+
+
+button{
+    background-color: var(--accent);
+    color: var(--main);
+    opacity: 100%;
+    border-radius: 15px;
+    padding: 15px 25px;
+    border: 1px solid var(--main);
+    font-size: large;
+    margin-top: 1rem;
+}
+
+#textbox{
+    display: flex;
+    background-color: var(--accent);
+    position: absolute;
+    top:17%;
+    padding: 5rem;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 300px;
+    border-radius: 3rem;
+    z-index: -2;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px solid var(--main);
+}
+#text{
+    color: var(--text);
+    position: absolute;
+    display: flex;
+    padding: 5rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 1rem;
+    z-index: -2;
+    font-size: xx-large;
+}
+#footer{
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 8%;
+    background: var(--main);
+    text-align: center;
+    color: var(--accent);
+}
